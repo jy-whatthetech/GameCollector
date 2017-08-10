@@ -13,6 +13,8 @@
 		1A25F7931F34E7BB0009AFCD /* GameCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A25F7911F34E7BB0009AFCD /* GameCollector.xcdatamodeld */; };
 		1A25F7951F34E7BB0009AFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A25F7941F34E7BB0009AFCD /* Assets.xcassets */; };
 		1A25F7981F34E7BB0009AFCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A25F7961F34E7BB0009AFCD /* LaunchScreen.storyboard */; };
+		1AF582C61F39710E009DA705 /* dog_sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AF582C51F39710E009DA705 /* dog_sample.jpg */; };
+		1AF582C81F3971E6009DA705 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF582C71F3971E6009DA705 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1A25F7941F34E7BB0009AFCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A25F7971F34E7BB0009AFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A25F7991F34E7BB0009AFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF582C51F39710E009DA705 /* dog_sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog_sample.jpg; sourceTree = "<group>"; };
+		1AF582C71F3971E6009DA705 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				1A25F78A1F34E7BB0009AFCD /* AppDelegate.swift */,
 				1A25F78C1F34E7BB0009AFCD /* ViewController.swift */,
 				1A25F78E1F34E7BB0009AFCD /* Main.storyboard */,
+				1AF582C51F39710E009DA705 /* dog_sample.jpg */,
+				1AF582C71F3971E6009DA705 /* GameViewController.swift */,
 				1A25F7941F34E7BB0009AFCD /* Assets.xcassets */,
 				1A25F7961F34E7BB0009AFCD /* LaunchScreen.storyboard */,
 				1A25F7991F34E7BB0009AFCD /* Info.plist */,
@@ -126,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF582C61F39710E009DA705 /* dog_sample.jpg in Resources */,
 				1A25F7981F34E7BB0009AFCD /* LaunchScreen.storyboard in Resources */,
 				1A25F7951F34E7BB0009AFCD /* Assets.xcassets in Resources */,
 				1A25F7901F34E7BB0009AFCD /* Main.storyboard in Resources */,
@@ -139,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF582C81F3971E6009DA705 /* GameViewController.swift in Sources */,
 				1A25F7931F34E7BB0009AFCD /* GameCollector.xcdatamodeld in Sources */,
 				1A25F78D1F34E7BB0009AFCD /* ViewController.swift in Sources */,
 				1A25F78B1F34E7BB0009AFCD /* AppDelegate.swift in Sources */,
@@ -305,6 +313,7 @@
 				1A25F79E1F34E7BB0009AFCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
